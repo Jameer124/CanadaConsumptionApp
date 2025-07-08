@@ -1,0 +1,138 @@
+.k-animation-container {
+  border-radius: 0 0 4px 4px;
+  z-index: 1100 !important;
+}
+.k-dropdownlist {
+  background-color: #e9ecef !important;
+  border-radius: 0px !important;
+  border-width: 0px !important;
+}
+.k-multiselect {
+  background-color: #e9ecef !important;
+  border-radius: 3px !important;
+  border-width: 0px !important;
+}
+.k-chart-tooltip-wrapper .k-chart-tooltip {
+  background: #fff !important;
+  color: #333 !important;
+  font-weight: initial !important;
+  box-shadow: 0px 1px 9px #ccc !important;
+  border-radius: 4px !important;
+}
+.k-multiselect .k-chip {
+  border-width: 0px;
+  background-color: #c6c6c6;
+  border-radius: 2px !important;
+}
+.k-chart.k-widget {
+  height: inherit !important;
+}
+.k-grid td,
+.k-grid th {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.k-grid td,
+.k-input-md,
+.k-picker-md {
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+text {
+  font-size: 0.7rem !important;
+}
+.k-grid th,
+.k-grid th p,
+.k-item {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  font-weight: bold !important; 
+}
+
+.k-grid table,
+.k-grid-header-wrap.k-auto-scrollable table {
+  width: 100% !important;
+  padding: 0px !important;
+}
+.k-grid .k-grid-header th .k-cell-inner,
+.k-grid .k-grid-header th .k-cell-inner > .k-link {
+  /* display: block; defaults to flex which makes aligning text harder in it */
+  display: block;
+  justify-content: center;
+  text-align: right;
+  white-space: normal;
+}
+
+.k-column-title {
+  white-space: normal;
+}
+.k-grid .k-detail-row .k-detail-cell .k-grid-header tr {
+  display: none !important;
+}
+.labeltexxt {
+  font-weight: bold !important;
+}
+
+.k-grid-footer td {
+  font-weight: bold !important;
+  color: black;
+}
+
+/* For changing the filter 3 dots icon to chevron down(angle bracket) icon */
+
+.k-icon.k-i-more-vertical {
+  box-sizing: border-box;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+.k-icon.k-i-more-vertical:before {
+  content: "\f078";
+}
+
+.k-chip-label, .k-chip-text {
+
+  color: #0000a0;
+  font-size: 2vh;
+
+}
+
+.k-multiselect .k-chip {
+  border-width: 0px;
+  background-color: #c6c6c6;
+  border-radius: 3px !important;
+}
+
+.ellipsis {
+  position: relative;
+  
+}
+.ellipsis:before {
+  content: '&nbsp;';
+  visibility: hidden;
+}
+.ellipsis span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* padding: 2px 8px; */
+  /* top:8px;
+  bottom: 8px;
+  padding: 2px 8px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@media(max-width: 1300px){
+
+}
+@media(max-width: 1100px){
+  .k-grid td,.k-input-md,.k-picker-md {line-height: 1rem;font-size: 0.65rem;}
+}
