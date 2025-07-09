@@ -14,7 +14,7 @@ function Home() {
 <Toplitemenu></Toplitemenu>
 
 
-<h1 style={{marginTop:'5vh',fontSize:'revert'}}>Home Page</h1>
+<h1 style={{marginTop:'5vh',fontSize:'revert'}}>Home Page 1</h1>
 
        {/* <button onClick={navigatetowiki}>Wiki</button> */}
       </>
